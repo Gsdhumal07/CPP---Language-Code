@@ -46,7 +46,6 @@ int dequeue(struct circularqueue *q){
 	else {
 		q->f=(q->f+1)%q->size;
 		a=q->arr[q->f];
-		
 	}
 	return -1;
 }
@@ -78,6 +77,4 @@ int main(){
 		cout<<endl;
 	}
 	return 0;
-	
-	
 }
